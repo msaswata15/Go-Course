@@ -17,10 +17,9 @@ func main() {
 		}
 	}
 	fmt.Println(newDeck().toString())
+	newDeck().saveToFile("My_cards")
+	newDeckFromFile("My_cards").print()
 }
 func newCard() {
 	fmt.Println("Five of Diamonds")
 }
-func print()      {}
-func shuffle()    {}
-func saveToFile() {}
